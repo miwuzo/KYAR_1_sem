@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="forXML.css"?>
+<!DOCTYPE text[
+	<!ELEMENT text (head,nauthor,author,title,ntitle )>
+	<!ELEMENT head (#PCDATA)>
+	<!ELEMENT text (#PCDATA)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT nauthor (#PCDATA)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT ntitle (#PCDATA)>
+	<!ENTITY author "-----">
+	<!ENTITY title "-----">
+]>
+<text>
+	<head>
+		<nauthor>-----</nauthor>
+		<ntitle>-----</ntitle>
+	</head>
+	<thms>
+		<author>-----</author>
+		<title>-----</title>
+	</thms>
+	<thms>
+		<author>-----</author>
+		<title>-----</title>
+	</thms>
+	<thms>
+		<author>-----</author>
+		<title>-----</title>
+	</thms>
+</text>

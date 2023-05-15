@@ -1,0 +1,20 @@
+$green: rgb(138, 255, 222);
+$hover:  rgb(226, 255, 255);
+@function text_size(){
+    @return 150%;
+}
+@function hover($i, $red, $hover){
+    @if($i==1){
+        @return $red;
+    }
+    @else{
+        @return $hover;
+    }
+}
+@for $i from 1 through 4{
+    .a-#{$i}{
+        &:hover{
+            color:hover($i,$green,$hover);
+        }
+    }
+}

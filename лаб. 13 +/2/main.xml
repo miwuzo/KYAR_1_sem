@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<catalog>
+    <student>
+        <name>Anna Dubeshko</name>
+        <mark>3</mark>
+    </student>
+    <student>
+        <name>Dasha Kudritskaya</name>
+        <mark>9</mark>
+    </student>
+    <student>
+        <name>Alesya Sadovnik</name>
+        <mark>7</mark>
+    </student>
+    <student>
+        <name>Evgeniya Gabrieleva</name>
+        <mark>9</mark>
+    </student>
+    <student>
+        <name>Margarita Zilinskaya</name>
+        <mark>8</mark>
+    </student>
+    <student>
+        <name>Milana Karolik</name>
+        <mark>3</mark>
+    </student>
+    <student>
+        <name>Arina Larionova</name>
+        <mark>3</mark>
+    </student>
+    <student>
+        <name>Alina Pikanova</name>
+        <mark>6</mark>
+    </student>
+</catalog>
